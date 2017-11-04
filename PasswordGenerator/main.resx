@@ -149,6 +149,15 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="nbChar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 34</value>
+  </data>
+  <data name="nbChar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 21</value>
+  </data>
+  <data name="nbChar.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
   <data name="&gt;&gt;nbChar.Name" xml:space="preserve">
     <value>nbChar</value>
   </data>
@@ -160,6 +169,21 @@
   </data>
   <data name="&gt;&gt;nbChar.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 37</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Nombre de caractères</value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
@@ -197,35 +221,11 @@
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 37</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 13</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Nb de caratères</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="generatePswd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
   </data>
   <data name="generatePswd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>174, 174</value>
+    <value>178, 165</value>
   </data>
   <data name="generatePswd.Size" type="System.Drawing.Size, System.Drawing">
     <value>289, 43</value>
@@ -351,32 +351,11 @@
   <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="nbChar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>126, 34</value>
-  </data>
-  <data name="nbChar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 21</value>
-  </data>
-  <data name="nbChar.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;nbChar.Name" xml:space="preserve">
-    <value>nbChar</value>
-  </data>
-  <data name="&gt;&gt;nbChar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nbChar.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;nbChar.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="btnCopyClip.Location" type="System.Drawing.Point, System.Drawing">
     <value>572, 242</value>
   </data>
   <data name="btnCopyClip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 23</value>
+    <value>47, 22</value>
   </data>
   <data name="btnCopyClip.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>

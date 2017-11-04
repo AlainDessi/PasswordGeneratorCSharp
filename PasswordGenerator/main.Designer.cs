@@ -31,13 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main));
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.nbChar = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.generatePswd = new System.Windows.Forms.Button();
             this.pswdText = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
-            this.nbChar = new System.Windows.Forms.ComboBox();
             this.btnCopyClip = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -56,6 +56,12 @@
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
+            // nbChar
+            // 
+            this.nbChar.FormattingEnabled = true;
+            resources.ApplyResources(this.nbChar, "nbChar");
+            this.nbChar.Name = "nbChar";
+            // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
@@ -63,9 +69,11 @@
             // 
             // generatePswd
             // 
+            this.generatePswd.BackColor = System.Drawing.Color.CornflowerBlue;
             resources.ApplyResources(this.generatePswd, "generatePswd");
+            this.generatePswd.ForeColor = System.Drawing.Color.White;
             this.generatePswd.Name = "generatePswd";
-            this.generatePswd.UseVisualStyleBackColor = true;
+            this.generatePswd.UseVisualStyleBackColor = false;
             this.generatePswd.Click += new System.EventHandler(this.generatePswd_Click);
             // 
             // pswdText
@@ -93,12 +101,6 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // nbChar
-            // 
-            this.nbChar.FormattingEnabled = true;
-            resources.ApplyResources(this.nbChar, "nbChar");
-            this.nbChar.Name = "nbChar";
-            // 
             // btnCopyClip
             // 
             resources.ApplyResources(this.btnCopyClip, "btnCopyClip");
@@ -120,6 +122,8 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "main";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
